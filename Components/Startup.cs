@@ -2,8 +2,6 @@
 using Microsoft.Owin;
 using Owin;
 
-
-
 //[assembly: OwinStartup(typeof(Christoc.Modules.DnnChat.Components.Startup))]
 [assembly: OwinStartup(typeof(Startup))]
 
@@ -16,7 +14,7 @@ namespace Christoc.Modules.DnnChat.Components
             app.MapSignalR();
             // something
 
-            var i = 1;
+            //var i = 1;
         } 
     }
 }
